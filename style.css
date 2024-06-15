@@ -189,3 +189,27 @@ p {
         filter: blur(0px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        height: auto;
+        padding: 80px 20px;
+    }
+    .main {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1.1rem;
+    }
+
+    .card {
+        max-width: 360px;
+    }
+}
